@@ -3,7 +3,7 @@ title: about
 date: 2024-12-16 05:29:32
 ---
 
-<img style="border-radius: 50%;" src="/personal-blog/images/profile.jpeg" alt="drawing" width="200"/>
+<img style="border-radius: 50%;" src="/images/profile.jpeg" alt="drawing" width="200"/>
 
 Hi, I'm Abhigna Nagaraja. I design, build, and scale software systems that serve billions of users. When I'm not thinking about software, you'll find me writing about books, productivity, and other things that catch my curiosity.
 
