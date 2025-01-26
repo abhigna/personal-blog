@@ -1,3 +1,6 @@
 [submodule "themes/cactus"]
     path = themes/cactus
     url = https://github.com/abhigna/hexo-theme-cactus
+[submodule "source/resume_pdf"]
+	path = source/resume_pdf
+	url = https://github.com/abhigna/resume
