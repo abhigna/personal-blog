@@ -5,8 +5,6 @@ tags:
   - tech
 ---
 
-**In Defense of Microservices**  
-
 <figure style="margin: 2em 0; text-align: center;">
   <img 
     style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" 
