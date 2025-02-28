@@ -111,3 +111,19 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# RSS 
+feed:
+    limit: 0
+    order_by: "-date"
+    tag_dir: "tag"
+    category_dir: "category"
+    rss:
+        enable: true
+        output: "rss.xml"
+    atom:
+        enable: true
+        output: "atom.xml"
+    jsonFeed:
+        enable: true
+        output: "feed.json"
