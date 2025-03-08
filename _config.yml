@@ -112,18 +112,15 @@ theme: cactus
 deploy:
   type: ''
 
-# RSS 
 feed:
-    limit: 0
-    order_by: "-date"
-    tag_dir: "tag"
-    category_dir: "category"
-    rss:
-        enable: true
-        output: "rss.xml"
-    atom:
-        enable: true
-        output: "atom.xml"
-    jsonFeed:
-        enable: true
-        output: "feed.json"
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 0 # Show all posts
+  hub:
+  # content:
+  # content_limit: 
+  # content_limit_delim: ' '
+  order_by: -date
+  autodiscovery: true
+  template:
