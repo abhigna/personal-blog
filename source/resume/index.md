@@ -14,6 +14,7 @@ date: 2024-12-16 05:29:32
     <button id="prev">Previous</button>
     <span id="page-num"></span> / <span id="page-count"></span>
     <button id="next">Next</button>
+    <a class="resume-download" href="/resume_pdf/Resume_Abhigna_Nagaraja.pdf" download>Download PDF</a>
 </div>
 
 <script>
@@ -89,5 +90,10 @@ button {
     padding: 0.5em 1em;
     margin: 0 0.5em;
 }
-</style>
 
+.resume-download {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+}
+</style>
