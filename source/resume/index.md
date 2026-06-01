@@ -6,6 +6,10 @@ date: 2024-12-16 05:29:32
 <!-- PDF.js CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 
+<div class="resume-actions">
+    <a class="resume-download" href="/resume_pdf/Resume_Abhigna_Nagaraja.pdf" download>Download PDF</a>
+</div>
+
 <div class="pdf-container">
     <canvas id="pdf-render"></canvas>
 </div>
@@ -14,7 +18,6 @@ date: 2024-12-16 05:29:32
     <button id="prev">Previous</button>
     <span id="page-num"></span> / <span id="page-count"></span>
     <button id="next">Next</button>
-    <a class="resume-download" href="/resume_pdf/Resume_Abhigna_Nagaraja.pdf" download>Download PDF</a>
 </div>
 
 <script>
@@ -84,6 +87,11 @@ canvas {
 .controls {
     text-align: center;
     margin: 1em 0;
+}
+
+.resume-actions {
+    text-align: center;
+    margin: 0 0 1em;
 }
 
 button {
